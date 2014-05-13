@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D35E4519181812004D6D42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D35E4419181812004D6D42 /* Cocoa.framework */; };
+		12D35E4F19181812004D6D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12D35E4D19181812004D6D42 /* InfoPlist.strings */; };
+		12D35E5119181812004D6D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D35E5019181812004D6D42 /* main.m */; };
+		12D35E5519181812004D6D42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 12D35E5319181812004D6D42 /* Credits.rtf */; };
+		12D35E5819181812004D6D42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D35E5719181812004D6D42 /* AppDelegate.m */; };
+		12D35E5B19181812004D6D42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D35E5919181812004D6D42 /* MainMenu.xib */; };
+		12D35E6319181812004D6D42 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D35E6219181812004D6D42 /* SenTestingKit.framework */; };
+		12D35E6419181812004D6D42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D35E4419181812004D6D42 /* Cocoa.framework */; };
+		12D35E6C19181812004D6D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12D35E6A19181812004D6D42 /* InfoPlist.strings */; };
+		12D35E6F19181812004D6D42 /* webServiceCEPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D35E6E19181812004D6D42 /* webServiceCEPTests.m */; };
+		12D35E7A19181832004D6D42 /* endereco.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D35E7919181832004D6D42 /* endereco.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D35E6519181812004D6D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D35E3919181812004D6D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D35E4019181812004D6D42;
+			remoteInfo = webServiceCEP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D35E4119181812004D6D42 /* webServiceCEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webServiceCEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D35E4419181812004D6D42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		12D35E4719181812004D6D42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		12D35E4819181812004D6D42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12D35E4919181812004D6D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12D35E4C19181812004D6D42 /* webServiceCEP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webServiceCEP-Info.plist"; sourceTree = "<group>"; };
+		12D35E4E19181812004D6D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12D35E5019181812004D6D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12D35E5219181812004D6D42 /* webServiceCEP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webServiceCEP-Prefix.pch"; sourceTree = "<group>"; };
+		12D35E5419181812004D6D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		12D35E5619181812004D6D42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12D35E5719181812004D6D42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12D35E5A19181812004D6D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12D35E6119181812004D6D42 /* webServiceCEPTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webServiceCEPTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D35E6219181812004D6D42 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		12D35E6919181812004D6D42 /* webServiceCEPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webServiceCEPTests-Info.plist"; sourceTree = "<group>"; };
+		12D35E6B19181812004D6D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12D35E6D19181812004D6D42 /* webServiceCEPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webServiceCEPTests.h; sourceTree = "<group>"; };
+		12D35E6E19181812004D6D42 /* webServiceCEPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webServiceCEPTests.m; sourceTree = "<group>"; };
+		12D35E7819181832004D6D42 /* endereco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endereco.h; sourceTree = "<group>"; };
+		12D35E7919181832004D6D42 /* endereco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = endereco.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D35E3E19181812004D6D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E4519181812004D6D42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D35E5D19181812004D6D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E6319181812004D6D42 /* SenTestingKit.framework in Frameworks */,
+				12D35E6419181812004D6D42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D35E3819181812004D6D42 = {
+			isa = PBXGroup;
+			children = (
+				12D35E7819181832004D6D42 /* endereco.h */,
+				12D35E7919181832004D6D42 /* endereco.m */,
+				12D35E4A19181812004D6D42 /* webServiceCEP */,
+				12D35E6719181812004D6D42 /* webServiceCEPTests */,
+				12D35E4319181812004D6D42 /* Frameworks */,
+				12D35E4219181812004D6D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12D35E4219181812004D6D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E4119181812004D6D42 /* webServiceCEP.app */,
+				12D35E6119181812004D6D42 /* webServiceCEPTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12D35E4319181812004D6D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E4419181812004D6D42 /* Cocoa.framework */,
+				12D35E6219181812004D6D42 /* SenTestingKit.framework */,
+				12D35E4619181812004D6D42 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12D35E4619181812004D6D42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E4719181812004D6D42 /* AppKit.framework */,
+				12D35E4819181812004D6D42 /* CoreData.framework */,
+				12D35E4919181812004D6D42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		12D35E4A19181812004D6D42 /* webServiceCEP */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E5619181812004D6D42 /* AppDelegate.h */,
+				12D35E5719181812004D6D42 /* AppDelegate.m */,
+				12D35E5919181812004D6D42 /* MainMenu.xib */,
+				12D35E4B19181812004D6D42 /* Supporting Files */,
+			);
+			path = webServiceCEP;
+			sourceTree = "<group>";
+		};
+		12D35E4B19181812004D6D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E4C19181812004D6D42 /* webServiceCEP-Info.plist */,
+				12D35E4D19181812004D6D42 /* InfoPlist.strings */,
+				12D35E5019181812004D6D42 /* main.m */,
+				12D35E5219181812004D6D42 /* webServiceCEP-Prefix.pch */,
+				12D35E5319181812004D6D42 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12D35E6719181812004D6D42 /* webServiceCEPTests */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E6D19181812004D6D42 /* webServiceCEPTests.h */,
+				12D35E6E19181812004D6D42 /* webServiceCEPTests.m */,
+				12D35E6819181812004D6D42 /* Supporting Files */,
+			);
+			path = webServiceCEPTests;
+			sourceTree = "<group>";
+		};
+		12D35E6819181812004D6D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D35E6919181812004D6D42 /* webServiceCEPTests-Info.plist */,
+				12D35E6A19181812004D6D42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12D35E4019181812004D6D42 /* webServiceCEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D35E7219181812004D6D42 /* Build configuration list for PBXNativeTarget "webServiceCEP" */;
+			buildPhases = (
+				12D35E3D19181812004D6D42 /* Sources */,
+				12D35E3E19181812004D6D42 /* Frameworks */,
+				12D35E3F19181812004D6D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webServiceCEP;
+			productName = webServiceCEP;
+			productReference = 12D35E4119181812004D6D42 /* webServiceCEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12D35E6019181812004D6D42 /* webServiceCEPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D35E7519181812004D6D42 /* Build configuration list for PBXNativeTarget "webServiceCEPTests" */;
+			buildPhases = (
+				12D35E5C19181812004D6D42 /* Sources */,
+				12D35E5D19181812004D6D42 /* Frameworks */,
+				12D35E5E19181812004D6D42 /* Resources */,
+				12D35E5F19181812004D6D42 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D35E6619181812004D6D42 /* PBXTargetDependency */,
+			);
+			name = webServiceCEPTests;
+			productName = webServiceCEPTests;
+			productReference = 12D35E6119181812004D6D42 /* webServiceCEPTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D35E3919181812004D6D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cotrim;
+			};
+			buildConfigurationList = 12D35E3C19181812004D6D42 /* Build configuration list for PBXProject "webServiceCEP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12D35E3819181812004D6D42;
+			productRefGroup = 12D35E4219181812004D6D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D35E4019181812004D6D42 /* webServiceCEP */,
+				12D35E6019181812004D6D42 /* webServiceCEPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12D35E3F19181812004D6D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E4F19181812004D6D42 /* InfoPlist.strings in Resources */,
+				12D35E5519181812004D6D42 /* Credits.rtf in Resources */,
+				12D35E5B19181812004D6D42 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D35E5E19181812004D6D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E6C19181812004D6D42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D35E5F19181812004D6D42 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12D35E3D19181812004D6D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E5119181812004D6D42 /* main.m in Sources */,
+				12D35E5819181812004D6D42 /* AppDelegate.m in Sources */,
+				12D35E7A19181832004D6D42 /* endereco.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D35E5C19181812004D6D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D35E6F19181812004D6D42 /* webServiceCEPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D35E6619181812004D6D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D35E4019181812004D6D42 /* webServiceCEP */;
+			targetProxy = 12D35E6519181812004D6D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12D35E4D19181812004D6D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D35E4E19181812004D6D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12D35E5319181812004D6D42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D35E5419181812004D6D42 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		12D35E5919181812004D6D42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D35E5A19181812004D6D42 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		12D35E6A19181812004D6D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D35E6B19181812004D6D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12D35E7019181812004D6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12D35E7119181812004D6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12D35E7319181812004D6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webServiceCEP/webServiceCEP-Prefix.pch";
+				INFOPLIST_FILE = "webServiceCEP/webServiceCEP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12D35E7419181812004D6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webServiceCEP/webServiceCEP-Prefix.pch";
+				INFOPLIST_FILE = "webServiceCEP/webServiceCEP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		12D35E7619181812004D6D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webServiceCEP.app/Contents/MacOS/webServiceCEP";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webServiceCEP/webServiceCEP-Prefix.pch";
+				INFOPLIST_FILE = "webServiceCEPTests/webServiceCEPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		12D35E7719181812004D6D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webServiceCEP.app/Contents/MacOS/webServiceCEP";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webServiceCEP/webServiceCEP-Prefix.pch";
+				INFOPLIST_FILE = "webServiceCEPTests/webServiceCEPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D35E3C19181812004D6D42 /* Build configuration list for PBXProject "webServiceCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D35E7019181812004D6D42 /* Debug */,
+				12D35E7119181812004D6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D35E7219181812004D6D42 /* Build configuration list for PBXNativeTarget "webServiceCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D35E7319181812004D6D42 /* Debug */,
+				12D35E7419181812004D6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12D35E7519181812004D6D42 /* Build configuration list for PBXNativeTarget "webServiceCEPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D35E7619181812004D6D42 /* Debug */,
+				12D35E7719181812004D6D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D35E3919181812004D6D42 /* Project object */;
+}
